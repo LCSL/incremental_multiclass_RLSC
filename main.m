@@ -46,11 +46,11 @@ clc;
 close all;
 confIncremental;
 
-%% Experiments setup
+%% Experimental setup
 run_inc_rlsc_yesrec = 1;    % Incremental RLSC with recoding
 computeTestAcc = 1;         % Flag for test accuracy computation
 trainPart = 0.8;            % Training set part (1 - validation_percentage)
-maxiter = 100;              % Maximum number of updates
+maxiter = 300;              % Maximum number of updates
 numrep = 2;                 % Number of repetitions of the experiment
 saveResult = 1;             % Save final results flag
 
