@@ -1,6 +1,8 @@
 # Incremental Multiclass RLSC
 Incremental regularized least squares for multiclass classification (RLSC) with recoding, extension to new classes and fixed update complexity.
 
+https://arxiv.org/pdf/1605.05045.pdf
+
 Copyright (c) 2017
 Istituto Italiano di Tecnologia, Genoa, Italy
 R. Camoriano, G. Pasquale, C. Ciliberto, L. Natale, L. Rosasco, G. Metta
@@ -21,3 +23,5 @@ Clone and run main.m
 To modify the experimental setting, edit "dataConf_MNIST_inc.m" and/or the "Experimental setup" section of "main.m"
 
 Tested on MATLAB R2014b
+
+If there is enough interest, RGB-D Washinton and iCubWorld28 features can be added (see issue #1).
