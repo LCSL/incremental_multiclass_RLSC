@@ -1,14 +1,15 @@
 dsRef = @MNIST;
 coding = 'zeroOne';
 
-ntr = 10000;
-nte = [];
+ntr = 10000;    % total number of training samples
+nte = [];       % total number of test samples 
+                % (if empty, the maximum number of available test samples are considered s.t. the test set is balanced)
 
-classes = 0:9; % classes to be extracted
-imbClassArr = 1:10;   % Imbalanced class(es)
+classes = 0:9;          % classes to be extracted
+imbClassArr = 1:10;     % Imbalanced class(es)
 
-nLow = 1000;
-lowFreq = 0.01;
+nLow = 1000;    % number of samples of the underrepresented class
+lowFreq = 0.01; % Relative frequency of samples belonging to the underrepresented class
 
 if ~isempty(nLow)
     
