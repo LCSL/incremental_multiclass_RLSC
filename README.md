@@ -20,9 +20,9 @@ All rights reserved.
    We evaluate our algorithm on both a machine learning benchmark dataset and two challenging object recognition tasks in a robotic setting. Empirical evidence shows that our approach achieves comparable or higher classification performance than its batch counterpart when classes are unbalanced, while being significantly faster.
 
 # Instructions
-Clone and run main.m
+Clone and run `main.m`
 
-To modify the experimental setting, edit "dataConf_MNIST_inc.m" and/or the "Experimental setup" section of "main.m"
+To modify the experimental setting, edit `dataConf_MNIST_inc.m` and/or the "Experimental setup" section of `main.m`
 
 # Note
 Tested on MATLAB R2014b
