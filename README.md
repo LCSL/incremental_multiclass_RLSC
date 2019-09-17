@@ -2,7 +2,9 @@
 Incremental regularized least squares for multiclass classification (RLSC) with recoding, extension to new classes and fixed update complexity.
 Code for reproducing the MNIST experiments of our paper:
 
->Camoriano, R., Pasquale, G., Ciliberto, C., Natale, L., Rosasco, L. and Metta, G., 2017, May. Incremental robot learning of new objects with fixed update time. In 2017 IEEE International Conference on Robotics and Automation (ICRA) (pp. 3207-3214). IEEE.
+>Camoriano, R.^, Pasquale, G.^, Ciliberto, C., Natale, L., Rosasco, L. and Metta, G., 2017, May. Incremental robot learning of new objects with fixed update time. In 2017 IEEE International Conference on Robotics and Automation (ICRA) (pp. 3207-3214). IEEE.
+>
+> ^: Equal contribution
 
 Final version: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7989364
 
